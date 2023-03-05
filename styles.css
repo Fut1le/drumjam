@@ -13,7 +13,23 @@ html {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 32vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.keys2 {
+  display: flex;
+  flex: 1;
+  min-height: 32vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.keys3 {
+  display: flex;
+  flex: 1;
+  min-height: 32vh;
   align-items: center;
   justify-content: center;
 }
@@ -47,5 +63,13 @@ span {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
+  color: #79B9FC;
+}
+
+.link {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
   color: #79B9FC;
 }
